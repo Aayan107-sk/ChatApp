@@ -1,4 +1,4 @@
-const respoonse = (res, statusCode, message, data=null) => {
+const response = (res, statusCode, message, data=null) => {
 
   if(!res){
     console.log("Response object null");
@@ -12,4 +12,4 @@ const respoonse = (res, statusCode, message, data=null) => {
   return res.status(statusCode).json(respoonseObject);
 }
 
-export default respoonse;
+export default response;

@@ -35,7 +35,7 @@ export const sendOtpToPhoneNumber = async (phoneNumber) => {
 
 // verify phone number otp
 
-export const verifyOtp = async (phoneNumber,otp) => {
+export const verifyPhoneOtp = async (phoneNumber,otp) => {
   try {
     console.log("this is my otp and phone number ",otp,phoneNumber);
     
